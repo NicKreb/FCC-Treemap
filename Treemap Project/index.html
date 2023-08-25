@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles.css">
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <title>Treemap Diagram</title>
+</head>
+<body>
+    <h2 id="title">Highest Grossing Productions</h2>
+    <h4 id="description">Productions with the most sales</h4>
+
+    <div id="tooltip"></div>
+    <svg id="canvas">
+
+    </svg>
+    <svg id="legend" height="200" width="300">
+        <g>
+            <rect x="0" y="0" class="legend-item" fill="red" height="20px" width="20px"></rect>
+            <text x="30" y="15">Action</text>
+        </g>
+        <g>
+            <rect x="0" y="25" class="legend-item" fill="purple" height="20px" width="20px"></rect>
+            <text x="30" y="40">Drama</text>
+        </g>
+        <g>
+            <rect x="0" y="50" class="legend-item" fill="lightgreen"  height="20px" width="20px"></rect>
+            <text x="30" y="65">Adventure</text>
+        </g>
+        <g>
+            <rect x="0" y="75" class="legend-item" fill="lightblue"  height="20px" width="20px"></rect>
+            <text x="30" y="90">Family</text>
+        </g>
+        <g>
+            <rect x="0" y="100" class="legend-item" fill="orange"  height="20px" width="20px"></rect>
+            <text x="30" y="115">Comedy</text>
+        </g>
+        <g>
+            <rect x="0" y="125" class="legend-item" fill="blue"  height="20px" width="20px"></rect>
+            <text x="30" y="140">Animation</text>
+        </g>
+        <g>
+            <rect x="0" y="150" class="legend-item" fill="tan"  height="20px" width="20px"></rect>
+            <text x="30" y="165">Biography</text>
+        </g>
+    </svg>   
+</body>
+<script src="/script.js"></script>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</html>
